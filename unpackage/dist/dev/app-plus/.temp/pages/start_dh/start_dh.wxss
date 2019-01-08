@@ -1,0 +1,24 @@
+@import "../../common/vendor.wxss";
+
+.animate_img.data-v-18e1fafc {
+  position: relative;
+  top: var(--status-bar-height);
+}
+.my_lunbo.data-v-18e1fafc {
+  width: 750rpx;
+  height: 100%;
+}
+.tiaoz.data-v-18e1fafc {
+  position: absolute;
+  top: 40rpx;
+  right: 40rpx;
+  color: #FFFFFF;
+}
+.button.data-v-18e1fafc {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 280rpx;
+  margin: 0 auto;
+  bottom: 100rpx;
+}

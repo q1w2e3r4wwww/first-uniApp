@@ -1,0 +1,95 @@
+@import "../../common/vendor.wxss";
+
+.myLogin {
+  background: #FFFFFF;
+}
+.content {
+  width: 100%;
+}
+.main {
+  box-sizing: border-box;
+  height: 600rpx;
+  text-align: center;
+  padding-top: 150rpx;
+  background: -webkit-radial-gradient(rgb(248, 248, 248), rgb(137, 162, 254), rgb(129, 155, 252), rgb(120, 147, 250));
+  background: radial-gradient(rgb(248, 248, 248), rgb(137, 162, 254), rgb(129, 155, 252), rgb(120, 147, 250));
+}
+.action-row {
+  position: absolute;
+  top: 500rpx;
+  left: 0;
+  right: 0;
+  width: 88%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 50rpx 60rpx;
+  background: #FFFFFF;
+  border-radius: 10rpx;
+  box-shadow: 10rpx 10rpx 5rpx rgba(0, 0, 0, 0.1);
+}
+.list {
+  box-sizing: border-box;
+}
+.list image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 40rpx;
+  -webkit-transform: translateY(4rpx);
+  transform: translateY(4rpx);
+}
+.list .name,
+.list .password {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  margin-top: 40rpx;
+  border-bottom: 1rpx solid #EEEEEE;
+}
+.wjPass {
+  float: right;
+  color: #999999;
+  margin: 15rpx 0;
+}
+.login {
+  margin-top: 80rpx;
+  width: 100%;
+  border-radius: 50rpx;
+  background: -webkit-linear-gradient(rgb(129, 155, 252), rgb(137, 162, 254), rgb(129, 155, 252));
+  background: linear-gradient(rgb(129, 155, 252), rgb(137, 162, 254), rgb(129, 155, 252));
+}
+.register {
+  -webkit-transform: translateY(-80rpx);
+  transform: translateY(-80rpx);
+  width: 100%;
+  height: 40rpx;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0 20rpx;
+  color: #999999;
+}
+.register .cont {
+  position: relative;
+}
+.register .cont image {
+  width: 100rpx;
+  height: 100rpx;
+}
+.register .cont:before,
+.register .cont:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  background: #999999;
+  width: 35%;
+  height: 1rpx;
+}
+.register .cont:before {
+  left: 2%;
+}
+.register .cont:after {
+  right: 2%;
+}

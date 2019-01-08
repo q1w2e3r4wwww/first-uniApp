@@ -1,0 +1,31 @@
+<import src="/components/progress/progress.vue.wxml" />
+<import src="/components/mpvue-echarts/src/echarts.vue.wxml" />
+<template name="7800dd88">
+  <scroll-view scroll-y class="_scroll-view data-v-25a3cb26" style=" {{('height:' + scrHeight + ';')}}">
+    <template data="{{...$root['0'], ...$root[$kk+'zw4-0'],$root}}" is="4a6097f0"></template>
+    <view class="_view data-v-25a3cb26 container">
+      <view class="_view data-v-25a3cb26 page-section-title" style="display: block;">
+        <view class="_view data-v-25a3cb26 uni-hello-text uni-common-pb"> uni里面的echarts.simple.min.js的组件不全，我使用的是npm install echarts --save 引入的echarts,组件用法参照 mpvue-charts </view>
+      </view>
+      <view class="_view data-v-25a3cb26 canvasView">
+        <view class="_view data-v-25a3cb26 canvas-bar">
+          <view class="_view data-v-25a3cb26 title">饼图示例</view>
+          <button class="_button data-v-25a3cb26 update-btn" type="primary" size="mini" bindtap="handleProxy" data-eventid="{{'NMd-0'}}" data-comkey="{{$k}}">修改饼状图数据</button>
+        </view>
+        <template canvasId="pie" ref="pieChart" data="{{...$root['0'], ...$root[$kk+'pGg-1'],$root}}" is="6e2a074a"></template>
+      </view>
+      <view class="_view data-v-25a3cb26 canvasView">
+        <view class="_view data-v-25a3cb26 title">折线图示例</view>
+        <template canvasId="line" ref="lineChart" data="{{...$root['0'], ...$root[$kk+'S19-2'],$root}}" is="6e2a074a"></template>
+      </view>
+      <view class="_view data-v-25a3cb26 canvasView">
+        <view class="_view data-v-25a3cb26 title">网状关系图</view>
+        <template canvasId="radar" data="{{...$root['0'], ...$root[$kk+'Chk-3'],$root}}" is="6e2a074a"></template>
+      </view>
+      <view class="_view data-v-25a3cb26 canvasView">
+        <view class="_view data-v-25a3cb26 title">关系图</view>
+        <template canvasId="tree" data="{{...$root['0'], ...$root[$kk+'RxU-4'],$root}}" is="6e2a074a"></template>
+      </view>
+    </view>
+  </scroll-view>
+</template>

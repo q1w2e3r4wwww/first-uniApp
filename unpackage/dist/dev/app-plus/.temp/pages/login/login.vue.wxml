@@ -1,0 +1,31 @@
+<template name="8d0e3558">
+  <view class="_view data-v-90257094 myLogin">
+    <view class="_view data-v-90257094 content" style=" {{('min-height:' + (height - 20 + 'px') + ';')}}">
+      <view class="_view data-v-90257094 main">
+        <image style="width: 300rpx;height: 300rpx;" src="../../static/timg.gif" mode class="_image data-v-90257094"></image>
+      </view>
+      <view class="_view data-v-90257094 action-row">
+        <view class="_view data-v-90257094 list">
+          <view class="_view data-v-90257094 name">
+            <image src="../../static/mine.png" mode class="_image data-v-90257094"></image>
+            <input type="text" value="{{account}}" bindinput="handleProxy" placeholder="请输入用户名" data-eventid="{{'aGF-0'}}" data-comkey="{{$k}}" class="_input data-v-90257094" />
+          </view>
+          <view class="_view data-v-90257094 password">
+            <image src="../../static/password.png" mode class="_image data-v-90257094"></image>
+            <input type="text" value="{{password}}" bindinput="handleProxy" placeholder="请输入密码" data-eventid="{{'O4c-1'}}" data-comkey="{{$k}}" class="_input data-v-90257094" />
+          </view>
+          <view class="_view data-v-90257094 wjPass">
+            <text bindtap="handleProxy" data-eventid="{{'fEa-2'}}" data-comkey="{{$k}}" class="_text data-v-90257094">注册账号</text> |
+            <text class="_text data-v-90257094">忘记密码</text>
+          </view>
+          <button type="primary" bindtap="handleProxy" class="_button data-v-90257094 login" data-eventid="{{'5Xc-3'}}" data-comkey="{{$k}}">登录</button>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-90257094 register">
+      <view class="_view data-v-90257094 cont">
+        <image bindtap="handleProxy" src="../../static/wxLogin.png" mode data-eventid="{{'OCj-4'}}" data-comkey="{{$k}}" class="_image data-v-90257094"></image>
+      </view>
+    </view>
+  </view>
+</template>

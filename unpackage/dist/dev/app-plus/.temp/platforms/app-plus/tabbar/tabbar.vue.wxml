@@ -1,0 +1,21 @@
+<import src="/components/tab-nvue/mediaList.vue.wxml" />
+<import src="/components/uni-load-more.vue.wxml" />
+<template name="5555c83c">
+  <view class="_view data-v-6d78b4e7 uni-tab-bar">
+    <scroll-view id="tab-bar" class="_scroll-view data-v-6d78b4e7 uni-swiper-tab" scroll-x scroll-left="{{scrollLeft}}">
+      <view wx:key="tab.id" key="{{tab.id}}" id="{{tab.id}}" data-current="{{index}}" bindtap="handleProxy" data-eventid="{{'dEA-0-'+index}}" data-comkey="{{$k}}" wx:for="{{tabBars}}" wx:for-index="index" wx:for-item="tab" class="_view data-v-6d78b4e7 {{['swiper-tab-list', tabIndex == index ? 'active' : '']}}">{{tab.name}}</view>
+    </scroll-view>
+    <swiper current="{{tabIndex}}" class="_swiper data-v-6d78b4e7 swiper-box" duration="300" bindchange="handleProxy" data-eventid="{{'oIE-3'}}" data-comkey="{{$k}}">
+      <swiper-item wx:key="index1" key="{{index1}}" wx:for="{{newsitems}}" wx:for-index="index1" wx:for-item="tab" class="_swiper-item data-v-6d78b4e7">
+        <scroll-view bindscroll="handleProxy" class="_scroll-view data-v-6d78b4e7 list" scroll-y bindscrolltolower="handleProxy" data-eventid="{{'ZuB-2-'+index1}}" data-comkey="{{$k}}">
+          <block wx:key="index2" key="{{index2}}" wx:for="{{tab.data}}" wx:for-index="index2" wx:for-item="newsitem">
+            <template bindclose="handleProxy" bindtap="handleProxy" data-eventid="{{'jHt-1-'+index1+'-'+index2}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'HAi-0-'+index1+'-'+index2],$root}}" is="54567e12"></template>
+          </block>
+          <view class="_view data-v-6d78b4e7 uni-tab-bar-loading" hidden="{{!(loadTrue)}}">
+            <template data="{{...$root['0'], ...$root[$kk+'KRS-1-'+index1],$root}}" is="6bbd8e9a"></template>
+          </view>
+        </scroll-view>
+      </swiper-item>
+    </swiper>
+  </view>
+</template>

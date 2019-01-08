@@ -1,0 +1,1 @@
+<import src="/pages/mine/tui_item/tui_item.vue.wxml" /><template is="7f580d25" data="{{ ...$root['0'], $root }}"/>

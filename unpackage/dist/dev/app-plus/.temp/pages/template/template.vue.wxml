@@ -1,0 +1,17 @@
+<template name="29afce3a">
+  <view class="_view data-v-c4dd8abc slide">
+    <view class="_view data-v-c4dd8abc show" bindtap="handleProxy" data-eventid="{{'a4M-0'}}" data-comkey="{{$k}}">微信小程序的滑动菜单</view>
+    <view class="_view data-v-c4dd8abc view upload" bindtap="handleProxy" data-eventid="{{'78M-1'}}" data-comkey="{{$k}}">上传文件接口:上传的进度为----{{progress}}%</view>
+    <view class="_view data-v-c4dd8abc view download" bindtap="handleProxy" data-eventid="{{'4gt-2'}}" data-comkey="{{$k}}">下载文件接口:下载的进度为----{{downloadpro}}%</view>
+    <button type="primary" bindtap="handleProxy" data-eventid="{{'d0E-3'}}" data-comkey="{{$k}}" class="_button data-v-c4dd8abc">获取手机网格信息号源</button>
+    <button type="primary" bindtap="handleProxy" data-eventid="{{'Eze-4'}}" data-comkey="{{$k}}" class="_button data-v-c4dd8abc">echarts</button>
+    <button type="primary" bindtap="handleProxy" data-eventid="{{'Ed7-5'}}" data-comkey="{{$k}}" class="_button data-v-c4dd8abc">日历组件</button>
+    <view hidden="{{!(showME)}}" class="_view data-v-c4dd8abc"> 我正在切换手机网络 </view>
+    <button type="primary" bindtap="handleProxy" data-eventid="{{'Vi1-6'}}" data-comkey="{{$k}}" class="_button data-v-c4dd8abc">获取手机相关信息</button>
+    <view class="_view data-v-c4dd8abc view chooseIMg" bindtap="handleProxy" data-eventid="{{'liM-7'}}" data-comkey="{{$k}}">调用相册或者相机的接口</view>
+    <image src="{{imgUrl}}" mode class="_image data-v-c4dd8abc"></image>
+    <button bindtap="handleProxy" data-eventid="{{'Wyq-8'}}" data-comkey="{{$k}}" class="_button data-v-c4dd8abc">数据缓存</button>
+    <button bindtap="handleProxy" data-eventid="{{'uVy-9'}}" data-comkey="{{$k}}" class="_button data-v-c4dd8abc">上传视频</button>
+    <video src="{{videoSrc}}" class="_video data-v-c4dd8abc"></video>
+  </view>
+</template>

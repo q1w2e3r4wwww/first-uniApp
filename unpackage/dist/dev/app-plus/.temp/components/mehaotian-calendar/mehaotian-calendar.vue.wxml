@@ -1,0 +1,45 @@
+<import src="/components/uni-icon.vue.wxml" />
+<template name="6852a270">
+  <view class="_view data-v-3d687588">
+    <view class="_view data-v-3d687588 calendar-box">
+      <view class="_view data-v-3d687588 calendar-wrapper ">
+        <view class="_view data-v-3d687588 content">
+          <view class="_view data-v-3d687588 calendar-panel">
+            <view class="_view data-v-3d687588 date-befor" bindtap="handleProxy" data-eventid="{{'Oif-0'}}" data-comkey="{{$k}}">
+              <template size="20" data="{{...$root['0'], ...$root[$kk+'lKx-0'],$root}}" is="0cfbfa1c"></template>
+            </view>
+            <view class="_view data-v-3d687588 calendar-panel-box">
+              <view class="_view data-v-3d687588">{{canlender.year}}年</view>
+              <view class="_view data-v-3d687588">{{canlender.month}}月</view>
+            </view>
+            <view class="_view data-v-3d687588 date-after rollback" bindtap="handleProxy" data-eventid="{{'nzn-1'}}" data-comkey="{{$k}}">
+              <template size="20" data="{{...$root['0'], ...$root[$kk+'YdP-1'],$root}}" is="0cfbfa1c"></template>
+            </view>
+            <view class="_view data-v-3d687588 backtoday" bindtap="handleProxy" data-eventid="{{'ioQ-2'}}" data-comkey="{{$k}}"> 回到今天 </view>
+          </view>
+          <view class="_view data-v-3d687588 calendar-header">
+            <view class="_view data-v-3d687588 week">日</view>
+            <view class="_view data-v-3d687588 week">一</view>
+            <view class="_view data-v-3d687588 week">二</view>
+            <view class="_view data-v-3d687588 week">三</view>
+            <view class="_view data-v-3d687588 week">四</view>
+            <view class="_view data-v-3d687588 week">五</view>
+            <view class="_view data-v-3d687588 week">六</view>
+          </view>
+          <view class="_view data-v-3d687588 calendar-body">
+            <block wx:key="week" key="{{week}}" wx:for="{{canlender.weeks}}" wx:for-index="week" wx:for-item="weeks">
+              <view class="_view data-v-3d687588 calender-body-date-week">
+                <block wx:key="index" key="{{index}}" wx:for="{{weeks}}" wx:for-index="index" wx:for-item="day">
+                  <view class="_view data-v-3d687588 date {{[  canlender.month !== day.month ? 'disable' : '',  (day.date == canlender.date || day.checked) && canlender.month == day.month    ? 'date-current'    : '']}}" data-week="{{}}" data-index="{{}}"
+                    data-ischeck="{{}}" bindtap="handleProxy" data-eventid="{{'yAi-3-'+week+'-'+index}}" data-comkey="{{$k}}"> {{day.date}}
+                    <view wx:if="{{day.have}}" class="_view data-v-3d687588 data-circle"></view>
+                  </view>
+                </block>
+              </view>
+            </block>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

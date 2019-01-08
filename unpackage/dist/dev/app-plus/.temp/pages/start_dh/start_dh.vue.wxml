@@ -1,0 +1,11 @@
+<template name="7fad961a">
+  <view class="_view data-v-18e1fafc">
+    <swiper class="_swiper data-v-18e1fafc animate_img" indicator-active-color="rgba(0, 128, 128,0.8)" indicator-color="rgba(255,255,255,0.6)" indicator-dots="{{indicatorDots}}" duration="{{duration}}" bindchange="handleProxy" data-eventid="{{'eBK-0'}}"
+      data-comkey="{{$k}}" style=" {{('height:' + height + ';')}}">
+      <swiper-item wx:key="item" key="{{item}}" wx:for="{{lunbo_img}}" wx:for-index="index" wx:for-item="item" class="_swiper-item data-v-18e1fafc">
+        <image class="_image data-v-18e1fafc my_lunbo" src="{{item}}" lazy-load="true" mode></image>
+      </swiper-item>
+    </swiper>
+    <button wx:if="{{current === 2}}" bindtap="handleProxy" class="_button data-v-18e1fafc button" size="mini" type="primary" data-eventid="{{'Ts9-1'}}" data-comkey="{{$k}}">立即体验</button>
+  </view>
+</template>

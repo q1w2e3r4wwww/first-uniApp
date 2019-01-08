@@ -1,0 +1,36 @@
+<template name="092b8386">
+  <view class="_view data-v-5ae69f22">
+    <view class="_view data-v-5ae69f22 main-content">
+      <view class="_view data-v-5ae69f22 content">
+        <view class="_view data-v-5ae69f22 top">
+          <text class="_text data-v-5ae69f22 title">赚积分的车载盒子 驾驶智能器 包含激活码 一键定位</text>
+          <view class="_view data-v-5ae69f22 sum">
+            <text class="_text data-v-5ae69f22 money">1395元 x </text>
+            <text class="_text data-v-5ae69f22 count">1</text>
+          </view>
+        </view>
+        <view class="_view data-v-5ae69f22 sum-count">
+          <view class="_view data-v-5ae69f22 text">共
+            <text class="_text data-v-5ae69f22 data">{{count}}</text>件</view>
+          <view class="_view data-v-5ae69f22 heji">合计：
+            <text class="_text data-v-5ae69f22 mon">{{count * price}}</text>元</view>
+        </view>
+      </view>
+      <view class="_view data-v-5ae69f22 pay-fs">
+        <text class="_text data-v-5ae69f22 title">选择支付方式</text>
+        <view class="_view data-v-5ae69f22 fs">
+          <image class="_image data-v-5ae69f22 chat" src="../../../static/photo.png" mode></image>
+          <text class="_text data-v-5ae69f22 text">微信支付</text>
+          <image class="_image data-v-5ae69f22 check" bindtap="handleProxy" hidden="{{!(checkShow)}}" src="../../../static/check.png" mode data-eventid="{{'HxP-0'}}" data-comkey="{{$k}}"></image>
+          <image class="_image data-v-5ae69f22 check" bindtap="handleProxy" hidden="{{!(!checkShow)}}" src="../../../static/check_active.png" mode data-eventid="{{'aDr-1'}}" data-comkey="{{$k}}"></image>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-5ae69f22 footer">
+      <view class="_view data-v-5ae69f22 title">支付：
+        <text class="_text data-v-5ae69f22 pay-money">￥{{count * price}}.00</text>
+      </view>
+      <text bindtap="handleProxy" class="_text data-v-5ae69f22 button" data-eventid="{{'yjg-2'}}" data-comkey="{{$k}}">去支付</text>
+    </view>
+  </view>
+</template>

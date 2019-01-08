@@ -1,0 +1,9 @@
+<template name="519b6a05"><view class="_view data-v-6b25f6b0 main"><view class="_view data-v-6b25f6b0 main-content" style=" {{('height:' + (windowHeight - 48 + 'px') + ';')}}"><view class="_view data-v-6b25f6b0 tip">
+			基本信息 
+		</view><view class="_view data-v-6b25f6b0 uni-list"><view class="_view data-v-6b25f6b0 uni-list-cell"><view class="_view data-v-6b25f6b0 list-left">
+					我的昵称
+				</view><view class="_view data-v-6b25f6b0 uni-list-cell-db"><input class="_input data-v-6b25f6b0 uni-input" placeholder="我的昵称" value="{{myNc}}" bindinput="handleProxy" data-eventid="{{'xjA-0'}}" data-comkey="{{$k}}" /></view></view><view class="_view data-v-6b25f6b0 uni-list-cell"><view class="_view data-v-6b25f6b0 list-left"> 
+					我的备注
+				</view><view class="_view data-v-6b25f6b0 uni-list-cell-db"><input class="_input data-v-6b25f6b0 uni-input" placeholder="我的备注" value="{{myBz}}" bindinput="handleProxy" data-eventid="{{'Vi8-1'}}" data-comkey="{{$k}}" /></view></view></view><view class="_view data-v-6b25f6b0 tip">
+			头像上传
+		</view><view class="_view data-v-6b25f6b0 uni-list"><view class="_view data-v-6b25f6b0 uni-list-cell uni-list-cell-last"><view class="_view data-v-6b25f6b0 upload"><image bindtap="handleProxy" class="_image data-v-6b25f6b0 upload-img" src="{{uploadUrl}}" mode data-eventid="{{'eMB-2'}}" data-comkey="{{$k}}"></image></view></view></view></view><view bindtap="handleProxy" class="_view data-v-6b25f6b0 footer" data-eventid="{{'Rzy-3'}}" data-comkey="{{$k}}"><text class="_text data-v-6b25f6b0 button">确定</text></view></view></template>

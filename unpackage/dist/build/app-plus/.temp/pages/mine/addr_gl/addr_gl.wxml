@@ -1,0 +1,1 @@
+<import src="/pages/mine/addr_gl/addr_gl.vue.wxml" /><template is="0c6da7d3" data="{{ ...$root['0'], $root }}"/>

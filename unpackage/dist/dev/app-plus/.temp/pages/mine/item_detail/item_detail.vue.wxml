@@ -1,0 +1,57 @@
+<import src="/components/addr_info/addr_info.vue.wxml" />
+<import src="/components/item_public/item_public.vue.wxml" />
+<template name="04957067">
+  <view class="_view data-v-6ce7844c">
+    <view class="_view data-v-6ce7844c">
+      <template data="{{...$root['0'], ...$root[$kk+'cVE-0'],$root}}" is="ca7572e0"></template>
+    </view>
+    <view class="_view data-v-6ce7844c public_item">
+      <template data="{{...$root['0'], ...$root[$kk+'pLO-1'],$root}}" is="1b926bc2"></template>
+      <view class="_view data-v-6ce7844c prefer">
+        <view class="_view data-v-6ce7844c pref">
+          <text class="_text data-v-6ce7844c text">满减优惠：</text>
+          <text class="_text data-v-6ce7844c data">- ¥0.00</text>
+        </view>
+        <view class="_view data-v-6ce7844c fare">
+          <text class="_text data-v-6ce7844c text">运费：</text>
+          <text class="_text data-v-6ce7844c data">+ ¥0.00</text>
+        </view>
+        <view class="_view data-v-6ce7844c fact right">
+          <text class="_text data-v-6ce7844c shif">实付：</text>
+          <text class="_text data-v-6ce7844c pay">¥11.00</text>
+        </view>
+      </view>
+      <view class="_view data-v-6ce7844c items-info">
+        <view class="_view data-v-6ce7844c ul">
+          <view class="_view data-v-6ce7844c li">订单信息</view>
+          <view class="_view data-v-6ce7844c bot li">
+            <text class="_text data-v-6ce7844c title">订单编号：</text>
+            <text class="_text data-v-6ce7844c text">{{item_number}}</text>
+          </view>
+          <view class="_view data-v-6ce7844c bot li">
+            <text class="_text data-v-6ce7844c title">订单日期：</text>
+            <text class="_text data-v-6ce7844c text">{{item_time}}</text>
+          </view>
+          <view class="_view data-v-6ce7844c bot li">
+            <text class="_text data-v-6ce7844c title">支付方式：</text>
+            <text class="_text data-v-6ce7844c text">微信支付</text>
+          </view>
+          <view class="_view data-v-6ce7844c bot li">
+            <text class="_text data-v-6ce7844c title">订单留言：</text>
+            <text class="_text data-v-6ce7844c text">这里是订单留言的内容超出部分……</text>
+          </view>
+          <view class="_view data-v-6ce7844c bot li last">
+            <text class="_text data-v-6ce7844c title">发票信息：</text>
+            <text class="_text data-v-6ce7844c text">这里是发票信息这里是发票信息这里是发票信息</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-6ce7844c control">
+      <text class="_text data-v-6ce7844c refund">评价</text>
+      <text bindtap="handleProxy" class="_text data-v-6ce7844c refund" data-eventid="{{'rh4-0'}}" data-comkey="{{$k}}">退款</text>
+      <text bindtap="handleProxy" class="_text data-v-6ce7844c lookitem" data-eventid="{{'lHM-1'}}" data-comkey="{{$k}}">查看物流</text>
+      <text bindtap="handleProxy" class="_text data-v-6ce7844c gopay" data-eventid="{{'bUz-2'}}" data-comkey="{{$k}}">去付款</text>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,6 @@
+<import src="/components/mehaotian-calendar/mehaotian-calendar.vue.wxml" />
+<template name="2f5800e8">
+  <view class="_view data-v-e3cc3912 content">
+    <template bindgetdate="handleProxy" data-eventid="{{'pJt-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'gDq-0'],$root}}" is="6852a270"></template>
+  </view>
+</template>

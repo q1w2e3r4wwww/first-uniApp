@@ -1,0 +1,53 @@
+<import src="/components/addr_info/addr_info.vue.wxml" />
+<import src="/components/item_public/item_public.vue.wxml" />
+<template name="1943c775">
+  <view class="_view data-v-57fd3c4c">
+    <view class="_view data-v-57fd3c4c top">
+      <template data="{{...$root['0'], ...$root[$kk+'jQ7-0'],$root}}" is="ca7572e0"></template>
+      <image src="../../../static/t_left.png" mode class="_image data-v-57fd3c4c"></image>
+    </view>
+    <view class="_view data-v-57fd3c4c public_item">
+      <template data="{{...$root['0'], ...$root[$kk+'hZy-1'],$root}}" is="1b926bc2"></template>
+      <view class="_view data-v-57fd3c4c items">
+        <view class="_ul data-v-57fd3c4c">
+          <view class="_li data-v-57fd3c4c">发票抬头:
+            <text class="_text data-v-57fd3c4c text">如需发票，请写抬头及（功能使用不了）</text>
+          </view>
+          <view class="_li data-v-57fd3c4c">买家留言:
+            <text class="_text data-v-57fd3c4c text">有什么能帮到您的？</text>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-57fd3c4c prefer">
+        <view class="_view data-v-57fd3c4c pref">
+          <text class="_text data-v-57fd3c4c text">满减优惠：</text>
+          <text class="_text data-v-57fd3c4c data">- ¥0.00</text>
+        </view>
+        <view class="_view data-v-57fd3c4c fare">
+          <text class="_text data-v-57fd3c4c text">运费：</text>
+          <text class="_text data-v-57fd3c4c data">+ ¥0.00</text>
+        </view>
+        <view class="_view data-v-57fd3c4c fact right">
+          <text class="_text data-v-57fd3c4c shif">实付：</text>
+          <text class="_text data-v-57fd3c4c pay">¥{{count * price}}.00</text>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-57fd3c4c item-number">
+      <view class="_view data-v-57fd3c4c pref">
+        <text class="_text data-v-57fd3c4c text">订单编号：</text>
+        <text class="_text data-v-57fd3c4c data">{{item_number}}</text>
+      </view>
+      <view class="_view data-v-57fd3c4c fare">
+        <text class="_text data-v-57fd3c4c text">订单日期：</text>
+        <text class="_text data-v-57fd3c4c data">{{item_time}}</text>
+      </view>
+    </view>
+    <view class="_view data-v-57fd3c4c footer">
+      <view class="_view data-v-57fd3c4c title">合计：
+        <text class="_text data-v-57fd3c4c pay-money">￥{{count * price}}.00</text>
+      </view>
+      <text bindtap="handleProxy" class="_text data-v-57fd3c4c button" data-eventid="{{'xCo-0'}}" data-comkey="{{$k}}">支付订单</text>
+    </view>
+  </view>
+</template>

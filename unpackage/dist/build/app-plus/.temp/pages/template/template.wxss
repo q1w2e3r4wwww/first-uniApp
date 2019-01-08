@@ -1,0 +1,2 @@
+@import "../../common/vendor.wxss";
+.show.data-v-c4dd8abc{display:none}.view.data-v-c4dd8abc{width:100%;color:#fff}.upload.data-v-c4dd8abc{background:#2782d7}.download.data-v-c4dd8abc{background:#4cd964}.chooseIMg.data-v-c4dd8abc{background:#6d6d72}

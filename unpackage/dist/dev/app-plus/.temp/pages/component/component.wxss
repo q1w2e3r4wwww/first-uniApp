@@ -1,0 +1,314 @@
+@import "../../common/vendor.wxss";
+
+.main {
+  position: relative;
+  box-sizing: border-box;
+}
+.city {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 100%;
+}
+.input-view {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  background-color: #e7e7e7;
+  height: 30rpx;
+  border-radius: 15rpx;
+  padding: 0 10rpx;
+}
+.input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  padding: 0 5rpx;
+}
+.wrapper,
+.my_swiper,
+.my_lunbo {
+  width: 100%;
+  height: 360rpx;
+}
+.uni-list-cell {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 80%;
+  margin: 10rpx auto;
+  border-radius: 20rpx;
+  padding-left: 15rpx;
+  background-color: #000000;
+  opacity: 0.2;
+}
+.uni-list-cell .uni-input {
+  width: 100%;
+  text-align: center;
+}
+.info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 60rpx;
+  box-sizing: border-box;
+  padding: 10rpx 15rpx 0;
+  background-color: #FFFFFF;
+  margin-top: 10rpx;
+  border-bottom: 1rpx solid #999999;
+}
+.info .my_img {
+  width: 110rpx;
+  height: 40rpx;
+  border-right: 1rpx solid #333333;
+}
+.info .my_img image {
+  width: 80%;
+  height: 100%;
+}
+.info .info_gb {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+  padding-left: 15rpx;
+}
+.info_gb image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.info_gb .neir {
+  margin-left: 15rpx;
+  color: #999999;
+}
+swiper {
+  -webkit-transform: translateY(-6rpx);
+  transform: translateY(-6rpx);
+  width: 100%;
+  height: 100%;
+}
+.content-body-info {
+  padding: 0 10rpx;
+}
+.content-body-info image {
+  width: 100%;
+  height: 200rpx;
+}
+.content-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 15rpx;
+}
+.content-section .item {
+  width: 50%;
+  margin-top: 15rpx;
+  padding-bottom: 10rpx;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  border-radius: 6rpx;
+}
+.content-section .item:nth-child(odd) {
+  padding: 0 10rpx 0 15rpx;
+}
+.content-section .item:nth-child(even) {
+  padding: 0 15rpx 0 10rpx;
+}
+.content-section .item .title {
+  display: inline-block;
+  width: 100%;
+  height: 100rpx;
+}
+.content-section .item .sum_buy {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.content-section .item image {
+  width: 100%;
+  height: 336rpx;
+}
+.money {
+  color: red;
+}
+.money .yuan {
+  font-size: 20rpx;
+  margin-left: 6rpx;
+}
+.cont {
+  height: 36rpx;
+  line-height: 36rpx;
+  width: 80rpx;
+  text-align: center;
+  font-size: 24rpx;
+  background-color: transparent;
+  color: #F55C23;
+  border: 1rpx solid #F55C23;
+  border-radius: 6rpx;
+}
+.load-more {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  height: 80rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.loading-img {
+  height: 34rpx;
+  width: 34rpx;
+  margin-right: 10rpx;
+}
+.loading-text {
+  font-size: 30rpx;
+  color: #777777;
+}
+.loading-img>view {
+  position: absolute;
+}
+.load1,
+.load2,
+.load3 {
+  height: 34rpx;
+  width: 34rpx;
+}
+.load2 {
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+.load3 {
+  -webkit-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+.loading-img>view view {
+  width: 6rpx;
+  height: 2rpx;
+  border-top-left-radius: 1rpx;
+  border-bottom-left-radius: 1rpx;
+  background: #777;
+  position: absolute;
+  opacity: 0.2;
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-animation: load 1.56s ease infinite;
+}
+.loading-img>view view:nth-child(1) {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  top: 2rpx;
+  left: 9rpx;
+}
+.loading-img>view view:nth-child(2) {
+  -webkit-transform: rotate(180deg);
+  top: 11rpx;
+  right: 0;
+}
+.loading-img>view view:nth-child(3) {
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+  bottom: 2rpx;
+  left: 9rpx;
+}
+.loading-img>view view:nth-child(4) {
+  top: 11rpx;
+  left: 0;
+}
+.load1 view:nth-child(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+.load2 view:nth-child(1) {
+  -webkit-animation-delay: 0.13s;
+  animation-delay: 0.13s;
+}
+.load3 view:nth-child(1) {
+  -webkit-animation-delay: 0.26s;
+  animation-delay: 0.26s;
+}
+.load1 view:nth-child(2) {
+  -webkit-animation-delay: 0.39s;
+  animation-delay: 0.39s;
+}
+.load2 view:nth-child(2) {
+  -webkit-animation-delay: 0.52s;
+  animation-delay: 0.52s;
+}
+.load3 view:nth-child(2) {
+  -webkit-animation-delay: 0.65s;
+  animation-delay: 0.65s;
+}
+.load1 view:nth-child(3) {
+  -webkit-animation-delay: 0.78s;
+  animation-delay: 0.78s;
+}
+.load2 view:nth-child(3) {
+  -webkit-animation-delay: 0.91s;
+  animation-delay: 0.91s;
+}
+.load3 view:nth-child(3) {
+  -webkit-animation-delay: 1.04s;
+  animation-delay: 1.04s;
+}
+.load1 view:nth-child(4) {
+  -webkit-animation-delay: 1.17s;
+  animation-delay: 1.17s;
+}
+.load2 view:nth-child(4) {
+  -webkit-animation-delay: 1.30s;
+  animation-delay: 1.30s;
+}
+.load3 view:nth-child(4) {
+  -webkit-animation-delay: 1.43s;
+  animation-delay: 1.43s;
+}
+@-webkit-keyframes load {
+0% {
+    opacity: 1;
+}
+100% {
+    opacity: 0.2;
+}
+}

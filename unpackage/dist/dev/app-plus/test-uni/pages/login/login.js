@@ -1,0 +1,13 @@
+
+      !(function(){
+        var uniAppViewReadyCallback = function(){
+          setCssToHead([[2,1],".",[1],"myLogin { background: #FFFFFF; }\n.",[1],"content { width: 100%; }\n.",[1],"main { box-sizing: border-box; height: ",[0,600],"; text-align: center; padding-top: ",[0,150],"; background: -webkit-radial-gradient(rgb(248, 248, 248), rgb(137, 162, 254), rgb(129, 155, 252), rgb(120, 147, 250)); background: radial-gradient(rgb(248, 248, 248), rgb(137, 162, 254), rgb(129, 155, 252), rgb(120, 147, 250)); }\n.",[1],"action-row { position: absolute; top: ",[0,500],"; left: 0; right: 0; width: 88%; margin: 0 auto; box-sizing: border-box; padding: ",[0,50]," ",[0,60],"; background: #FFFFFF; border-radius: ",[0,10],"; box-shadow: ",[0,10]," ",[0,10]," ",[0,5]," rgba(0, 0, 0, 0.1); }\n.",[1],"list { box-sizing: border-box; }\n.",[1],"list wx-image { width: ",[0,40],"; height: ",[0,40],"; margin-right: ",[0,40],"; -webkit-transform: translateY(",[0,4],"); transform: translateY(",[0,4],"); }\n.",[1],"list .",[1],"name, .",[1],"list .",[1],"password { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; flex-direction: row; margin-top: ",[0,40],"; border-bottom: ",[0,1]," solid #EEEEEE; }\n.",[1],"wjPass { float: right; color: #999999; margin: ",[0,15]," 0; }\n.",[1],"login { margin-top: ",[0,80],"; width: 100%; border-radius: ",[0,50],"; background: -webkit-linear-gradient(rgb(129, 155, 252), rgb(137, 162, 254), rgb(129, 155, 252)); background: linear-gradient(rgb(129, 155, 252), rgb(137, 162, 254), rgb(129, 155, 252)); }\n.",[1],"register { -webkit-transform: translateY(",[0,-80],"); transform: translateY(",[0,-80],"); width: 100%; height: ",[0,40],"; box-sizing: border-box; text-align: center; padding: 0 ",[0,20],"; color: #999999; }\n.",[1],"register .",[1],"cont { position: relative; }\n.",[1],"register .",[1],"cont wx-image { width: ",[0,100],"; height: ",[0,100],"; }\n.",[1],"register .",[1],"cont:before, .",[1],"register .",[1],"cont:after { content: \x27\x27; position: absolute; top: 50%; background: #999999; width: 35%; height: ",[0,1],"; }\n.",[1],"register .",[1],"cont:before { left: 2%; }\n.",[1],"register .",[1],"cont:after { right: 2%; }\n",],undefined,{path:"./pages/login/login.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/login/login.wxml') } }));
+        }
+        if(window.__uniAppViewReady__){
+          uniAppViewReadyCallback()
+        }else{
+          document.addEventListener('uniAppViewReady',uniAppViewReadyCallback)
+        }
+      })();
+      

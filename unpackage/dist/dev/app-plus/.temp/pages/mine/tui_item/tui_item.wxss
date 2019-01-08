@@ -1,0 +1,117 @@
+@import "../../../common/vendor.wxss";
+
+.items.data-v-480cee90 {
+  padding: 0 15rpx;
+  background-color: #FFFFFF;
+}
+.items .li.data-v-480cee90 {
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+  color: #384150;
+}
+.items .li.data-v-480cee90:first-child {
+  border-bottom: 1rpx solid rgba(7,17,27,0.1);
+}
+.items .li .text.data-v-480cee90 {
+  font-size: 28rpx;
+  color: #030303;
+}
+.chargeback.data-v-480cee90,
+.tui_yy.data-v-480cee90 {
+  background-color: #FFFFFF;
+  margin-top: 13rpx;
+  padding: 0 15rpx;
+}
+.chargeback > .title.data-v-480cee90 {
+  width: 100%;
+  border-bottom: 1rpx solid rgba(7,17,27,0.1);
+}
+.myout.data-v-480cee90 {
+  display: inline-block;
+  height: 24rpx;
+  line-height: 24rpx;
+  font-size: 28rpx;
+  color: #616166;
+  padding-left: 15rpx;
+  border-left: 6rpx solid #41BFFF;
+}
+.data.data-v-480cee90 {
+  font-size: 24rpx;
+  color: #919199;
+}
+.module.data-v-480cee90 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 10rpx;
+  padding: 10rpx 0;
+}
+.module .box.data-v-480cee90 {
+  width: 28rpx;
+  height: 28rpx;
+  margin-top: 108rpx;
+  margin-right: 40rpx;
+}
+.tui_yy .beac.data-v-480cee90 {
+  position: relative;
+  margin-top: 13rpx;
+}
+.tui_yy .beac .left.data-v-480cee90 {
+  position: absolute;
+  right: 15rpx;
+  top: 16rpx;
+  width: 24rpx;
+  height: 24rpx;
+}
+.tui_yy .beac ._textarea.data-v-480cee90 {
+  width: 98%;
+  border: none;
+  border-top: 1rpx solid rgba(7,17,27,0.1);
+  font-size: 28rpx;
+  color: #919199;
+  padding: 6rpx 0;
+  text-indent: 28rpx;
+}
+.baseShow.data-v-480cee90 {
+  display: block;
+}
+.baseHide.data-v-480cee90 {
+  display: none;
+}
+.base.data-v-480cee90 {
+  position: absolute;
+  z-index: 119;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.2);
+}
+.chargeback-beac.data-v-480cee90 {
+  position: absolute;
+  z-index: 120;
+  background: white;
+}
+.chargeback-beac .ul .li.data-v-480cee90 {
+  display: block;
+  text-align: center;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 28rpx;
+  color: #030303;
+  padding: 0 60rpx;
+}
+.chargeback-beac .ul .li.data-v-480cee90:nth-child(n+2) {
+  border-bottom: 1rpx solid rgba(7,17,27,0.1);
+}
+.chargeback-beac .ul .li.data-v-480cee90:last-child {
+  border-bottom: none;
+}
+.chargeback-beac .ul .title.data-v-480cee90 {
+  background: #F7F7F7;
+  font-size: 14rpx;
+  color: #919199;
+  height: 40rpx;
+  line-height: 40rpx;
+}

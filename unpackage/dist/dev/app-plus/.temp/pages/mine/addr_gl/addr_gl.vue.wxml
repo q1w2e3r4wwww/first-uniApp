@@ -1,0 +1,34 @@
+<template name="0c6da7d3">
+  <view class="_view data-v-71a97b90">
+    <view class="_view data-v-71a97b90 main-content">
+      <view class="_view data-v-71a97b90 main" wx:key="index" key="{{index}}" wx:for="{{addList}}" wx:for-index="index" wx:for-item="list">
+        <view class="_view data-v-71a97b90 myaddr">
+          <view class="_view data-v-71a97b90 text-name">
+            <image src="../../../static/user.png" mode class="_image data-v-71a97b90"></image>
+            <text class="_text data-v-71a97b90 name">{{list.name}}</text>
+          </view>
+          <view class="_view data-v-71a97b90 text-phone">
+            <image src="../../../static/phone.png" mode class="_image data-v-71a97b90"></image>
+            <text class="_text data-v-71a97b90 phone">{{list.phone}}</text>
+          </view>
+        </view>
+        <view class="_view data-v-71a97b90 addr">
+          <text class="_text data-v-71a97b90 data">{{list.addr}}</text>
+        </view>
+        <view class="_view data-v-71a97b90 sette">
+          <view class="_view data-v-71a97b90 title">
+            <image class="_image data-v-71a97b90 check" src="{{active_img}}" mode></image>
+            <text class="_text data-v-71a97b90 text">设为默认地址</text>
+          </view>
+          <view class="_view data-v-71a97b90 setting">
+            <image class="_image data-v-71a97b90 update" src="../../../static/update.png" mode></image>
+            <image bindtap="handleProxy" class="_image data-v-71a97b90 delete" src="../../../static/delete.png" mode data-eventid="{{'WSh-0-'+index}}" data-comkey="{{$k}}"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-71a97b90 footer">
+      <text bindtap="handleProxy" class="_text data-v-71a97b90 button" data-eventid="{{'mNN-1'}}" data-comkey="{{$k}}">新增收货地址</text>
+    </view>
+  </view>
+</template>

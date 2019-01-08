@@ -1,0 +1,18 @@
+@import "../../common/vendor.wxss";
+
+.show.data-v-c4dd8abc {
+  display: none;
+}
+.view.data-v-c4dd8abc {
+  width: 100%;
+  color: #FFFFFF;
+}
+.upload.data-v-c4dd8abc {
+  background: #2782D7;
+}
+.download.data-v-c4dd8abc {
+  background: #4CD964;
+}
+.chooseIMg.data-v-c4dd8abc {
+  background: #6D6D72;
+}

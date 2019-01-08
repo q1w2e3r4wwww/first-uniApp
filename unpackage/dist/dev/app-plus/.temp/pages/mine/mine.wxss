@@ -1,0 +1,208 @@
+@import "../../common/vendor.wxss";
+
+.ui-share-hover {
+  opacity: 0.9;
+  -webkit-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+}
+.main {
+  position: relative;
+}
+.top {
+  position: relative;
+}
+.bg_top {
+  width: 100%;
+  height: 300rpx;
+}
+.title_photo {
+  height: 120rpx;
+  width: 120rpx;
+  border-radius: 50%;
+  border: 2rpx solid #ffffff;
+}
+.myPhoto {
+  position: absolute;
+  top: 138rpx;
+  left: 56rpx;
+  height: 120rpx;
+  text-align: center;
+}
+.name {
+  position: relative;
+  -webkit-transform: translateY(-14rpx);
+  transform: translateY(-14rpx);
+  width: 100%;
+  height: 70rpx;
+  background: #ffffff;
+}
+.myPhoto,
+.name .detail {
+  width: 200rpx;
+}
+.name .detail {
+  position: absolute;
+  left: 56rpx;
+}
+.name .detail .title {
+  font-size: 28rpx;
+}
+.name .detail text {
+  display: block;
+  -webkit-transform: translateY(-30rpx);
+  transform: translateY(-30rpx);
+  text-align: center;
+}
+.name .detail .text {
+  font-size: 22rpx;
+  color: #96A4B7;
+}
+.name .handle {
+  position: absolute;
+  z-index: 100000;
+  right: 30rpx;
+  bottom: 16rpx;
+}
+.name .handle image {
+  width: 48rpx;
+  height: 48rpx;
+}
+.my_item {
+  background-color: #FFFFFF;
+  padding: 10rpx 15rpx;
+}
+.my_item .title {
+  display: block;
+  margin-bottom: 6rpx;
+}
+.my_item .tz-order {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  font-size: 22rpx;
+  color: #96A4B7;
+}
+.my_item .tz-order image {
+  -webkit-transform: translateY(6rpx);
+  transform: translateY(6rpx);
+  width: 22rpx;
+  height: 22rpx;
+}
+.myui {
+  margin-top: 15rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.myui .li {
+  position: relative;
+  text-align: center;
+}
+.uni-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 4rpx;
+}
+.myui .li image {
+  width: 48rpx;
+  height: 48rpx;
+}
+.myui .li .title {
+  font-size: 22rpx;
+  color: #384150;
+  line-height: 20rpx;
+}
+.uni-list {
+  margin-top: 13rpx;
+}
+.uni-list-cell-navigate {
+  border-top: 1rpx solid transparent !important;
+  border-bottom: none !important;
+}
+.uni-list-cell-navigate image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.uni-list-cell-navigate .title {
+  position: absolute;
+  left: 120rpx;
+}
+.uni-badge,
+.uni-badge-default {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  box-sizing: border-box;
+  font-size: 12rpx;
+  line-height: 1;
+  display: inline-block;
+  padding: 3rpx 6rpx;
+  color: #333;
+  border-radius: 100rpx;
+}
+.uni-badge.uni-badge-size-small,
+.uni-badge-default.uni-badge-size-small {
+  height: 10rpx;
+  line-height: 11rpx;
+  padding: 0 3rpx;
+  font-size: 8rpx !important;
+}
+.uni-badge.uni-badge-inverted {
+  padding: 0 5rpx 0 0;
+  color: #929292;
+  background-color: transparent;
+}
+.uni-badge-primary {
+  color: #fff;
+  background-color: #007aff;
+}
+.uni-badge-blue.uni-badge-inverted,
+.uni-badge-primary.uni-badge-inverted {
+  color: #007aff;
+  background-color: transparent;
+}
+.uni-badge-green,
+.uni-badge-success {
+  color: #fff;
+  background-color: #4cd964;
+}
+.uni-badge-green.uni-badge-inverted,
+.uni-badge-success.uni-badge-inverted {
+  color: #4cd964;
+  background-color: transparent;
+}
+.uni-badge-warning,
+.uni-badge-yellow {
+  color: #fff;
+  background-color: #f0ad4e;
+}
+.uni-badge-warning.uni-badge-inverted,
+.uni-badge-yellow.uni-badge-inverted {
+  color: #f0ad4e;
+  background-color: transparent;
+}
+.uni-badge-danger,
+.uni-badge-red {
+  color: #fff;
+  background-color: #dd524d;
+}
+.uni-badge-danger.uni-badge-inverted,
+.uni-badge-red.uni-badge-inverted {
+  color: #dd524d;
+  background-color: transparent;
+}
+.uni-badge-purple,
+.uni-badge-royal {
+  color: #fff;
+  background-color: #8a6de9;
+}
+.uni-badge-purple.uni-badge-inverted,
+.uni-badge-royal.uni-badge-inverted {
+  color: #8a6de9;
+  background-color: transparent;
+}

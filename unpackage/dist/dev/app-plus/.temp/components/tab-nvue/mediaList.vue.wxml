@@ -1,0 +1,26 @@
+<template name="54567e12">
+  <view class="_view data-v-1207d48c">
+    <view class="_view data-v-1207d48c list-cell" hover-class="uni-list-cell-hover" bindtap="handleProxy" data-eventid="{{'Peu-1'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-1207d48c media-list" wx:if="{{data.title}}">
+        <view class="_view data-v-1207d48c {{[isImgRight ? 'media-image-right' : '', isImgLeft ? 'media-image-left' : '']}}">
+          <view wx:if="{{showImg}}" class="_view data-v-1207d48c {{[  'image-section',  isImgRight ? 'image-section-right' : '',  isImgLeft ? 'image-section-left' : '']}}">
+            <image wx:if="{{data.image_url}}" src="{{data.image_url}}" class="_image data-v-1207d48c {{['image-list1', isImgRight || isImgLeft ? 'image-list2' : '']}}"></image>
+            <image class="_image data-v-1207d48c image-list3" wx:if="{{data.image_list}}" src="{{source.url}}" wx:key="i" key="{{i}}" wx:for="{{data.image_list}}" wx:for-index="i" wx:for-item="source"></image>
+          </view>
+          <text class="_text data-v-1207d48c {{['media-title', isImgRight || isImgLeft ? 'media-title2' : '']}}">{{data.title}}</text>
+        </view>
+        <view class="_view data-v-1207d48c media-foot">
+          <view class="_view data-v-1207d48c media-info">
+            <text class="_text data-v-1207d48c info-text">{{data.source}}</text>
+            <text class="_text data-v-1207d48c info-text">价格:{{data.comment_count}}元</text>
+          </view>
+          <view class="_view data-v-1207d48c max-close-view" catchtap="handleProxy" data-eventid="{{'m7H-0'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-1207d48c close-view">
+              <text class="_text data-v-1207d48c close">×</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

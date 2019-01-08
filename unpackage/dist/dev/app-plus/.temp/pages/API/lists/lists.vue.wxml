@@ -1,0 +1,26 @@
+<template name="7025386c">
+  <view class="_view data-v-1995590e content">
+    <view class="_view data-v-1995590e left-content">
+      <view class="_ul data-v-1995590e">
+        <view wx:key="item" key="{{item}}" bindtap="handleProxy" data-eventid="{{'DAY-0-'+i}}" data-comkey="{{$k}}" wx:for="{{left_item}}" wx:for-index="i" wx:for-item="item" class="_li data-v-1995590e {{[i == arrentIndex ? 'isActive' : '']}}">{{item}}</view>
+      </view>
+    </view>
+    <view class="_view data-v-1995590e right-content">
+      <scroll-view scroll-y style="height: 100%;" class="_scroll-view data-v-1995590e">
+        <view class="_view data-v-1995590e items" wx:key="index" key="{{index}}" wx:for="{{items_data}}" wx:for-index="index" wx:for-item="item">
+          <view class="_view data-v-1995590e theme">
+            <image class="_image data-v-1995590e left" src="../../static/group_left.png" mode></image>
+            <text class="_text data-v-1995590e title">{{item.title}}</text>
+            <image class="_image data-v-1995590e right" src="../../static/group_left.png" mode></image>
+          </view>
+          <view class="_view data-v-1995590e main">
+            <view class="_view data-v-1995590e img_title" wx:key="itemIndex" key="{{itemIndex}}" wx:for="{{item.detail}}" wx:for-index="itemIndex" wx:for-item="imgs">
+              <image src="{{imgs.img_url}}" mode class="_image data-v-1995590e"></image>
+              <text class="_text data-v-1995590e title">{{imgs.text}}</text>
+            </view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+</template>

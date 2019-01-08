@@ -1,0 +1,1 @@
+<import src="/pages/template/getPhonginfo/getPhonginfo.vue.wxml" /><template is="73057ccc" data="{{ ...$root['0'], $root }}"/>

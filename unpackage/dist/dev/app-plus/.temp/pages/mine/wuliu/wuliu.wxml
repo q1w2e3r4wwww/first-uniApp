@@ -1,0 +1,1 @@
+<import src="/pages/mine/wuliu/wuliu.vue.wxml" /><template is="aac9c03e" data="{{ ...$root['0'], $root }}"/>

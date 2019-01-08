@@ -1,0 +1,25 @@
+<import src="/components/item_public/item_public.vue.wxml" />
+<import src="/components/uni-number-box.vue.wxml" />
+<template name="0a960ed6">
+  <view class="_view data-v-3d6de444">
+    <view class="_view data-v-3d6de444 main">
+      <template bindsendiptVal="handleProxy" data-eventid="{{'HHm-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'L2r-0'],$root}}" is="1b926bc2"></template>
+      <view class="_view data-v-3d6de444 main_content uni-input-row">
+        <view class="_view data-v-3d6de444 count">
+          <text class="_text data-v-3d6de444 action title">数量:</text>
+          <template bindchange="handleProxy" data-eventid="{{'DLe-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'SVU-1'],$root}}" is="5b562400"></template>
+        </view>
+        <view class="_view data-v-3d6de444 count content">
+          <text class="_text data-v-3d6de444 title">总价格:</text>
+          <view class="_view data-v-3d6de444 allPrice">
+            <text class="_text data-v-3d6de444">￥{{count * price}}</text>
+            <text class="_text data-v-3d6de444 yuan">元</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view bindtap="handleProxy" class="_view data-v-3d6de444 footer" data-eventid="{{'y5E-2'}}" data-comkey="{{$k}}">
+      <text class="_text data-v-3d6de444 button">确定</text>
+    </view>
+  </view>
+</template>

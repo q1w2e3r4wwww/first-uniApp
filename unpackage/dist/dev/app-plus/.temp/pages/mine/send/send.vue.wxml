@@ -1,0 +1,20 @@
+<import src="/components/readList.vue.wxml" />
+<template name="1998ec36">
+  <view class="_view data-v-45fca4d0 send-main">
+    <view class="_view data-v-45fca4d0 myTitle">
+      <view class="_view data-v-45fca4d0 detail">
+        <image class="_image data-v-45fca4d0 myPhoto" src="{{myPhoto}}" mode></image>
+        <view class="_view data-v-45fca4d0 myInfo">
+          <text class="_text data-v-45fca4d0 text name">王涛</text>
+          <view class="_view data-v-45fca4d0 text phone">
+            <image src="../../../static/phone.png" mode class="_image data-v-45fca4d0"></image>18786026794</view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-45fca4d0 sendList">
+      <view wx:key="index" key="{{index}}" wx:for="{{conts}}" wx:for-index="index" wx:for-item="v" class="_view data-v-45fca4d0">
+        <template data="{{...$root['0'], ...$root[$kk+'zwz-0-'+index],$root}}" is="5ed65810"></template>
+      </view>
+    </view>
+  </view>
+</template>

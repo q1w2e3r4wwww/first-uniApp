@@ -1,0 +1,15 @@
+<template name="ec9db25a">
+  <view class="_view data-v-ec2c8710 main">
+    <view class="_view data-v-ec2c8710 uni-list" wx:key="index" key="{{index}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="item">
+      <view class="_view data-v-ec2c8710 uni-list-cell uni-list-cell-pd">
+        <view bindtap="handleProxy" class="_view data-v-ec2c8710 uni-list-cell-db" data-eventid="{{'K5J-0-'+index}}" data-comkey="{{$k}}">{{item.value}}</view>
+        <switch wx:if="{{index == 0}}" bindchange="handleProxy" checked="{{isChecked}}" data-eventid="{{'M89-1-'+index}}" data-comkey="{{$k}}" class="_switch data-v-ec2c8710" />
+      </view>
+    </view>
+    <view class="_view data-v-ec2c8710 uni-list">
+      <view class="_view data-v-ec2c8710 uni-list-cell" bindtap="handleProxy" wx:key="index" key="{{index}}" data-eventid="{{'BwH-2-'+index}}" data-comkey="{{$k}}" wx:for="{{flist}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-ec2c8710 uni-list-cell-navigate uni-navigate-right"> {{item.value}} </view>
+      </view>
+    </view>
+  </view>
+</template>

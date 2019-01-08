@@ -1,0 +1,101 @@
+@import "../../common/vendor.wxss";
+
+page {
+  background: #FFFFFF;
+}
+.yz_login {
+  box-sizing: border-box;
+  height: 100rpx;
+  width: 100%;
+}
+.perinfo {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 180rpx;
+  text-align: center;
+  margin: 40rpx 0;
+}
+.perinfo image {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  border: 2rpx solid #FFFFFF;
+}
+.perinfo .phone {
+  margin-top: 140rpx;
+}
+.index-page .result {
+  text-align: center;
+  margin-top: 30rpx;
+}
+.tipinfo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 30rpx;
+  line-height: 30rpx;
+}
+.tipinfo text {
+  display: inline-block;
+  margin-top: 20rpx;
+  color: #007AFF;
+}
+.tipinfo .text {
+  width: 40%;
+  text-align: center;
+}
+.gesture-lock.data-v-709a19aa {
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+  overflow: auto;
+}
+.gesture-lock .cycle.data-v-709a19aa {
+  box-sizing: border-box;
+  position: absolute;
+  border: 2rpx solid #66aaff;
+  border-radius: 50%;
+}
+.gesture-lock .cycle.check.data-v-709a19aa:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 32%;
+  height: 32%;
+  border: 2rpx solid #66aaff;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.gesture-lock .line.data-v-709a19aa {
+  height: 0;
+  border-top: 2rpx solid #66aaff;
+  position: absolute;
+  -webkit-transform-origin: left center;
+  transform-origin: left center;
+}
+.gesture-lock.error .cycle.check.data-v-709a19aa,
+.gesture-lock.error .cycle.check.data-v-709a19aa:after,
+.gesture-lock.error .line.data-v-709a19aa {
+  border-color: #ffa197;
+}

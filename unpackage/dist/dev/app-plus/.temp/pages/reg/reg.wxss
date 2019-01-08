@@ -1,0 +1,24 @@
+@import "../../common/vendor.wxss";
+
+.content.data-v-2fe374e8 {
+  padding: 20rpx 30rpx;
+}
+.input-group.data-v-2fe374e8 {
+  background: #FFFFFF;
+  padding: 15rpx 20rpx;
+}
+.input-row.data-v-2fe374e8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1rpx solid #999999;
+}
+.primary.data-v-2fe374e8 {
+  background: rgb(15,174,255);
+}

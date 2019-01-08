@@ -1,0 +1,13 @@
+
+      !(function(){
+        var uniAppViewReadyCallback = function(){
+          setCssToHead([[2,1],".",[1],"main.",[1],"data-v-3d6de444 { padding: ",[0,10]," ",[0,15],"; }\n.",[1],"count.",[1],"data-v-3d6de444 { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; flex-direction: row; line-height: ",[0,70],"; }\n.",[1],"count .",[1],"action.",[1],"data-v-3d6de444 { margin-right: ",[0,15],"; }\n.",[1],"main_content.",[1],"data-v-3d6de444 { border-top: ",[0,2]," solid #CCCCCC; }\n.",[1],"yuan.",[1],"data-v-3d6de444 { font-size: ",[0,12],"; margin-left: ",[0,4],"; }\n.",[1],"allPrice.",[1],"data-v-3d6de444 { color: #FF5555; line-height: ",[0,70],"; }\n.",[1],"title.",[1],"data-v-3d6de444 { color: #2B313B; }\n.",[1],"footer.",[1],"data-v-3d6de444 { position: fixed; bottom: 0; width: 100%; height: ",[0,100],"; background: #DD524D; text-align: center; }\n.",[1],"footer .",[1],"button.",[1],"data-v-3d6de444 { display: inline-block; padding: 0; font-size: ",[0,32],"; color: #ffffff; border: none; background: transparent; line-height: ",[0,100],"; }\n.",[1],"uni-numbox { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; flex-direction: row; -webkit-box-pack: start; -webkit-justify-content: flex-start; justify-content: flex-start; height: ",[0,70],"; }\n.",[1],"uni-numbox-minus, .",[1],"uni-numbox-plus { border: ",[0,2]," solid #cccccc; margin: 0; background-color: #f9f9f9; width: ",[0,60],"; height: ",[0,54],"; line-height: ",[0,54],"; text-align: center; color: #555555; }\n.",[1],"uni-numbox-minus { border-right: none; border-top-left-radius: ",[0,6],"; border-bottom-left-radius: ",[0,6],"; }\n.",[1],"uni-numbox-plus { border-left: none; border-top-right-radius: ",[0,6],"; border-bottom-right-radius: ",[0,6],"; }\n.",[1],"uni-numbox-value { border: ",[0,2]," solid #cccccc; background-color: #ffffff; width: ",[0,70],"; height: ",[0,30],"; text-align: center; }\n.",[1],"uni-numbox-disabled { color: #c0c0c0; }\n",],undefined,{path:"./pages/component/buyitem/buyitem.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/component/buyitem/buyitem.wxml') } }));
+        }
+        if(window.__uniAppViewReady__){
+          uniAppViewReadyCallback()
+        }else{
+          document.addEventListener('uniAppViewReady',uniAppViewReadyCallback)
+        }
+      })();
+      

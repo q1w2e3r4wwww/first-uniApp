@@ -1,0 +1,18 @@
+<import src="/components/uni-nav-bar.vue.wxml" />
+<import src="/components/mpvueGestureLock/index.vue.wxml" />
+<template name="0b50455a">
+  <view class="_view data-v-31d9eb42 yz_login">
+    <template fixed="true" left-icon="back" bindclick-left="handleProxy" bindclick-right="handleProxy" left-text="返回" right-text="注册" title="手势登录" data-eventid="{{'Mnz-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'YSx-0'],$root}}" is="6e4e7300"></template>
+    <template background-color="rgba(0,0,0,0)" status-bar="true" data="{{...$root['0'], ...$root[$kk+'XAN-1'],$root}}" is="6e4e7300"></template>
+    <view class="_view data-v-31d9eb42 perinfo">
+      <image src="../../static/photo.png" mode class="_image data-v-31d9eb42"></image>
+      <view class="_view data-v-31d9eb42 phone">{{password}}</view>
+    </view>
+    <template bindend="handleProxy" data-eventid="{{'ysc-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Y1P-2'],$root}}" is="09b59283"></template>
+    <view class="_view data-v-31d9eb42 tipinfo">
+      <text class="_text data-v-31d9eb42 text">忘记手势密码</text>
+      <text class="_text data-v-31d9eb42">|</text>
+      <text class="_text data-v-31d9eb42 text">切换登录方式</text>
+    </view>
+  </view>
+</template>

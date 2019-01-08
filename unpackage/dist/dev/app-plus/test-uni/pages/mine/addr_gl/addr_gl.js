@@ -1,0 +1,13 @@
+
+      !(function(){
+        var uniAppViewReadyCallback = function(){
+          setCssToHead([[2,1],".",[1],"main.",[1],"data-v-71a97b90 { background-color: #FFFFFF; margin-bottom: 20uupx; }\n.",[1],"main-content.",[1],"data-v-71a97b90 { margin-bottom: ",[0,100],"; }\n.",[1],"myaddr.",[1],"data-v-71a97b90 { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; justify-content: space-between; padding: ",[0,15]," ",[0,30],"; }\n.",[1],"myaddr .",[1],"text-phone.",[1],"data-v-71a97b90 { margin-left: ",[0,200],"; }\n.",[1],"myaddr wx-image.",[1],"data-v-71a97b90 { width: ",[0,44],"; height: ",[0,44],"; vertical-align: top; }\n.",[1],"myaddr .",[1],"text-name .",[1],"name.",[1],"data-v-71a97b90, .",[1],"myaddr .",[1],"text-phone .",[1],"phone.",[1],"data-v-71a97b90 { display: inline-block; font-size: ",[0,32],"; color: #313133; margin-left: ",[0,6],"; margin-top: ",[0,4],"; }\n.",[1],"addr.",[1],"data-v-71a97b90 { padding: 0 ",[0,30]," ",[0,15],"; }\n.",[1],"addr .",[1],"data.",[1],"data-v-71a97b90 { color: #919199; font-size: ",[0,28],"; }\n.",[1],"sette.",[1],"data-v-71a97b90 { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; justify-content: space-between; height: ",[0,60],"; line-height: ",[0,60],"; margin: 0 ",[0,30],"; border-top: ",[0,1]," solid rgba(7,17,27,0.1); }\n.",[1],"sette .",[1],"check.",[1],"data-v-71a97b90 { margin-right: ",[0,11],"; }\n.",[1],"sette .",[1],"update.",[1],"data-v-71a97b90 { margin-right: ",[0,27],"; }\n.",[1],"sette wx-image.",[1],"data-v-71a97b90 { width: ",[0,32],"; height: ",[0,32],"; vertical-align: middle; }\n.",[1],"sette .",[1],"text.",[1],"data-v-71a97b90 { color: #313133; font-size: ",[0,24],"; }\n.",[1],"footer.",[1],"data-v-71a97b90 { position: fixed; bottom: 0; width: 100%; height: ",[0,100],"; background: #41BFFF; text-align: center; }\n.",[1],"footer .",[1],"button.",[1],"data-v-71a97b90 { display: inline-block; padding: 0; font-size: ",[0,32],"; color: #ffffff; border: none; background: transparent; line-height: ",[0,100],"; }\n",],undefined,{path:"./pages/mine/addr_gl/addr_gl.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/mine/addr_gl/addr_gl.wxml') } }));
+        }
+        if(window.__uniAppViewReady__){
+          uniAppViewReadyCallback()
+        }else{
+          document.addEventListener('uniAppViewReady',uniAppViewReadyCallback)
+        }
+      })();
+      

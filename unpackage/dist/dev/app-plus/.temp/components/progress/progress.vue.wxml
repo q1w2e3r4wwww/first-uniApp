@@ -1,0 +1,5 @@
+<template name="4a6097f0">
+  <view class="_view data-v-26556b48">
+    <progress hidden="{{!(pageShow)}}" percent="{{percent}}" stroke-width="2" class="_progress data-v-26556b48" />
+  </view>
+</template>

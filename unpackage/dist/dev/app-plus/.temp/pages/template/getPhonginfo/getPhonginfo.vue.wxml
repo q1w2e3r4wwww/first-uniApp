@@ -1,0 +1,101 @@
+<template name="73057ccc">
+  <view class="_view data-v-56116737">
+    <view class="_view data-v-56116737 page-body">
+      <view class="_view data-v-56116737 page-section">
+        <view class="_view data-v-56116737 uni-list">
+          <view class="_view data-v-56116737 uni-list-cell">
+            <view class="_view data-v-56116737 uni-pd">
+              <view class="_view data-v-56116737 uni-label">手机型号</view>
+            </view>
+            <view class="_view data-v-56116737 uni-list-cell-db">
+              <input class="_input data-v-56116737 uni-input" type="text" disabled="{{true}}" placeholder="未获取" value="{{systemInfo.model}}" />
+            </view>
+          </view>
+          <view class="_view data-v-56116737 uni-list-cell">
+            <view class="_view data-v-56116737 uni-pd">
+              <view class="_view data-v-56116737 uni-label">语言</view>
+            </view>
+            <view class="_view data-v-56116737 uni-list-cell-db">
+              <input class="_input data-v-56116737 uni-input" type="text" disabled="{{true}}" placeholder="未获取" value="{{systemInfo.language}}" />
+            </view>
+          </view>
+          <view class="_view data-v-56116737 uni-list-cell">
+            <view class="_view data-v-56116737 uni-pd">
+              <view class="_view data-v-56116737 uni-label">引擎版本号</view>
+            </view>
+            <view class="_view data-v-56116737 uni-list-cell-db">
+              <input class="_input data-v-56116737 uni-input" type="text" disabled="{{true}}" placeholder="未获取" value="{{systemInfo.version}}" />
+            </view>
+          </view>
+          <view class="_view data-v-56116737 uni-list-cell">
+            <view class="_view data-v-56116737 uni-pd">
+              <view class="_view data-v-56116737 uni-label">操作系统版本</view>
+            </view>
+            <view class="_view data-v-56116737 uni-list-cell-db">
+              <input class="_input data-v-56116737 uni-input" type="text" disabled="{{true}}" placeholder="未获取" value="{{systemInfo.system}}" />
+            </view>
+          </view>
+          <view class="_view data-v-56116737 uni-list-cell">
+            <view class="_view data-v-56116737 uni-pd">
+              <view class="_view data-v-56116737 uni-label">客户端平台</view>
+            </view>
+            <view class="_view data-v-56116737 uni-list-cell-db">
+              <input class="_input data-v-56116737 uni-input" type="text" disabled="{{true}}" placeholder="未获取" value="{{systemInfo.platform}}" />
+            </view>
+          </view>
+          <view class="_view data-v-56116737 uni-list-cell">
+            <view class="_view data-v-56116737 uni-pd">
+              <view class="_view data-v-56116737 uni-label">可使用窗口宽度</view>
+            </view>
+            <view class="_view data-v-56116737 uni-list-cell-db">
+              <input class="_input data-v-56116737 uni-input" type="text" disabled="{{true}}" placeholder="未获取" value="{{systemInfo.windowWidth}}" />
+            </view>
+          </view>
+          <view class="_view data-v-56116737 uni-list-cell">
+            <view class="_view data-v-56116737 uni-pd">
+              <view class="_view data-v-56116737 uni-label">可使用窗口高度</view>
+            </view>
+            <view class="_view data-v-56116737 uni-list-cell-db">
+              <input class="_input data-v-56116737 uni-input" type="text" disabled="{{true}}" placeholder="未获取" value="{{systemInfo.windowHeight}}" />
+            </view>
+          </view>
+          <view class="_view data-v-56116737 uni-list-cell">
+            <view class="_view data-v-56116737 uni-pd">
+              <view class="_view data-v-56116737 uni-label">屏幕宽度</view>
+            </view>
+            <view class="_view data-v-56116737 uni-list-cell-db">
+              <input class="_input data-v-56116737 uni-input" type="text" disabled="{{true}}" placeholder="未获取" value="{{systemInfo.screenWidth}}" />
+            </view>
+          </view>
+          <view class="_view data-v-56116737 uni-list-cell">
+            <view class="_view data-v-56116737 uni-pd">
+              <view class="_view data-v-56116737 uni-label">屏幕高度</view>
+            </view>
+            <view class="_view data-v-56116737 uni-list-cell-db">
+              <input class="_input data-v-56116737 uni-input" type="text" disabled="{{true}}" placeholder="未获取" value="{{systemInfo.screenHeight}}" />
+            </view>
+          </view>
+          <view class="_view data-v-56116737 uni-list-cell">
+            <view class="_view data-v-56116737 uni-pd">
+              <view class="_view data-v-56116737 uni-label">状态栏的高度</view>
+            </view>
+            <view class="_view data-v-56116737 uni-list-cell-db">
+              <input class="_input data-v-56116737 uni-input" type="text" disabled="{{true}}" placeholder="未获取" value="{{systemInfo.statusBarHeight}}" />
+            </view>
+          </view>
+          <view class="_view data-v-56116737 uni-list-cell">
+            <view class="_view data-v-56116737 uni-pd">
+              <view class="_view data-v-56116737 uni-label">设备像素比（DPI）</view>
+            </view>
+            <view class="_view data-v-56116737 uni-list-cell-db">
+              <input class="_input data-v-56116737 uni-input" type="text" disabled="{{true}}" placeholder="未获取" value="{{systemInfo.pixelRatio}}" />
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-56116737 btn-area">
+          <button type="primary" bindtap="handleProxy" data-eventid="{{'gz6-0'}}" data-comkey="{{$k}}" class="_button data-v-56116737">获取手机系统信息</button>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

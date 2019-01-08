@@ -1,0 +1,18 @@
+<template name="5ed65810">
+  <view class="_view data-v-e6db532a read-item">
+    <view class="_view data-v-e6db532a dot"></view>
+    <view class="_view data-v-e6db532a date">{{content.hp_makettime}}</view>
+    <view class="_view data-v-e6db532a content">
+      <view class="_view data-v-e6db532a title">
+        <text class="_text data-v-e6db532a">{{content.hp_title}}</text>
+      </view>
+      <view class="_view data-v-e6db532a guide">
+        <text class="_text data-v-e6db532a">{{content.guide_word}}</text>
+      </view>
+      <view class="_view data-v-e6db532a author" wx:if="{{content.author && content.author.length}}">
+        <view class="_view data-v-e6db532a">配送人— {{content.author[0].user_name}}</view>
+        <view class="_view data-v-e6db532a">电话— {{content.author[1].user_phone}}</view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,15 @@
+<template name="1b926bc2">
+  <view class="_view data-v-ba5ee858">
+    <view class="_view data-v-ba5ee858 myItems">
+      <view class="_view data-v-ba5ee858 img">
+        <image src="../../../static/item_1.png" mode class="_image data-v-ba5ee858"></image>
+      </view>
+      <view class="_view data-v-ba5ee858 text">
+        <text class="_text data-v-ba5ee858 title">会赚积分的车载盒子 驾驶智能器 包含激活码 一键定位</text>
+        <text class="_text data-v-ba5ee858 leix">规格：个</text>
+        <text class="_text data-v-ba5ee858 money">￥{{itemPrice}}</text>
+      </view>
+      <view class="_view data-v-ba5ee858 count">x{{count}}</view>
+    </view>
+  </view>
+</template>

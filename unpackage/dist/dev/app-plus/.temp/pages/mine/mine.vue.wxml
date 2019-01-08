@@ -1,0 +1,46 @@
+<import src="/components/uni-badge.vue.wxml" />
+<template name="d2fc764c">
+  <view class="_view data-v-749cb7c2 main">
+    <view class="_view data-v-749cb7c2 top">
+      <image class="_image data-v-749cb7c2 bg_top" src="../../static/bg_wave.png" mode></image>
+      <view class="_view data-v-749cb7c2 myPhoto">
+        <image bindtap="handleProxy" class="_image data-v-749cb7c2 title_photo" src="{{myPhoto}}" mode data-eventid="{{'a5Q-0'}}" data-comkey="{{$k}}"></image>
+      </view>
+      <view class="_view data-v-749cb7c2 name">
+        <view class="_view data-v-749cb7c2 detail" bindtap="handleProxy" data-eventid="{{'5dZ-1'}}" data-comkey="{{$k}}">
+          <text class="_text data-v-749cb7c2 title">{{nickName}}</text>
+          <text class="_text data-v-749cb7c2 text">{{loginInfo}}{{username}}</text>
+        </view>
+        <view bindtap="handleProxy" class="_view data-v-749cb7c2 handle" data-eventid="{{'49E-2'}}" data-comkey="{{$k}}">
+          <image src="../../static/updatemine.png" mode class="_image data-v-749cb7c2"></image>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-749cb7c2 my_item">
+      <text class="_text data-v-749cb7c2 title">我的订单</text>
+      <view class="_view data-v-749cb7c2 tz-order text">
+        <text class="_text data-v-749cb7c2">订单详情都在这呢</text>
+        <view bindtap="handleProxy" class="_view data-v-749cb7c2 look" data-eventid="{{'pCi-3'}}" data-comkey="{{$k}}"> 查看所有订单
+          <image src="../../static/right.png" class="_image data-v-749cb7c2"></image>
+        </view>
+      </view>
+      <view class="_view data-v-749cb7c2 myui">
+        <view class="_view data-v-749cb7c2 li" style="position: relative;" wx:key="index" key="{{index}}" hover-class="ui-share-hover" bindtap="handleProxy" data-eventid="{{'vzj-4-'+index}}" data-comkey="{{$k}}" wx:for="{{cdList}}" wx:for-index="index"
+          wx:for-item="items">
+          <image src="{{items.img}}" class="_image data-v-749cb7c2"></image>
+          <text class="_text data-v-749cb7c2 title">{{items.title}}</text>
+          <template hidden="{{!(count > 0)}}" type="danger" data="{{...$root['0'], ...$root[$kk+'iPR-0-'+index],$root}}" is="0a2cd87a"></template>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-749cb7c2 uni-list">
+      <view wx:if="{{index < (list.length - 1) ? show : hide}}" class="_view data-v-749cb7c2 uni-list-cell" bindtap="handleProxy" wx:key="index" key="{{index}}" data-eventid="{{'KMJ-5-'+index}}" data-comkey="{{$k}}" wx:for="{{list}}" wx:for-index="index"
+        wx:for-item="item">
+        <view class="_view data-v-749cb7c2 uni-list-cell-navigate {{[index < list.length - 2 ? 'uni-navigate-right' : '']}}">
+          <image src="{{item.img}}" mode class="_image data-v-749cb7c2"></image>
+          <text class="_text data-v-749cb7c2 title">{{item.name}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,39 @@
+@import "../../../common/vendor.wxss";
+
+.upload.data-v-6b25f6b0 {
+  width: 100%;
+  padding: 15rpx 0;
+  text-align: center;
+}
+.upload-img.data-v-6b25f6b0 {
+  width: 300rpx;
+  height: 300rpx;
+}
+.uni-list-cell-db.data-v-6b25f6b0 {
+  padding: 0 30rpx 0 60rpx;
+}
+.list-left.data-v-6b25f6b0 {
+  padding-left: 30rpx;
+}
+.tip.data-v-6b25f6b0 {
+  height: 50rpx;
+  line-height: 50rpx;
+  color: #999999;
+  padding-left: 30rpx;
+  font-size: 28rpx;
+}
+.footer.data-v-6b25f6b0 {
+  width: 100%;
+  height: 100rpx;
+  background: #DD524D;
+  text-align: center;
+}
+.footer .button.data-v-6b25f6b0 {
+  display: inline-block;
+  padding: 0;
+  font-size: 32rpx;
+  color: #ffffff;
+  border: none;
+  background: transparent;
+  line-height: 100rpx;
+}
