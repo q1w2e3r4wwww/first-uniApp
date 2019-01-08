@@ -1,0 +1,19 @@
+{
+  "name": "test-uni",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "echarts": "^4.2.0-rc.2",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "weex-ui": "^0.6.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

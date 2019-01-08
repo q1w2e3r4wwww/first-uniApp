@@ -1,0 +1,329 @@
+{
+    // 全局配置路由跳转
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        // 		{
+        // 			"path": "pages/tabs/tabs",
+        // 			"style": {
+        // 				"navigationBarTitleText": "自定义底部导航栏"
+        // 			}
+        // 		},
+        {
+            "path" : "pages/start_dh/start_dh",
+            "style" : {
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/component/component",
+            "style" : {
+                "enablePullDownRefresh" : true, //开启下拉刷新
+                "navigationBarTitleText" : "驾图预想",
+                "app-plus" : {
+                    "titleNView" : false,
+                    "bounce" : "none",
+                    "scrollIndicator" : "none",
+                    "pullToRefresh" : {
+                        "style" : "circle",
+                        "offset" : "70px",
+                        "color" : "#007AFF"
+                    }
+                }
+            }
+        },{
+			"path": "pages/component/buyitem/buyitem",
+			"style": {
+				"navigationBarTitleText": "购买商品",
+				"navigationBarBackgroundColor": "#41BFFF", // 导航栏背景色
+				"navigationBarTextStyle": "white" // 导航栏标题颜色
+			}	
+		},{
+            "path" : "platforms/app-plus/tabbar/tabbar",
+            "style" : {
+                "navigationBarTitleText" : "商品列表",
+                "navigationBarBackgroundColor" : "#41BFFF", // 导航栏背景色
+                "navigationBarTextStyle" : "white", // 导航栏标题颜色
+                "app-plus" : {
+                    "titleNView" : {
+                        "buttons" : {
+                            "type" : "back",
+                            "color" : "#41BFFF"
+                        }
+                    }
+                }
+            }
+        },{
+			"path": "pages/API/textWeex/textWeex",
+			"style": {
+				"navigationBarTitleText": "测试weex-ui组件",
+				"navigationBarBackgroundColor": "#41BFFF", // 导航栏背景色
+				"navigationBarTextStyle": "white" // 导航栏标题颜色
+			}	
+		},{
+            "path" : "pages/API/lists/lists",
+            "style" : {
+                "navigationBarTitleText" : "测试weex-ui组件",
+                "navigationBarBackgroundColor" : "#41BFFF", // 导航栏背景色
+                "navigationBarTextStyle" : "white" // 导航栏标题颜色
+            }
+        },
+        {
+            "path" : "pages/template/template",
+            "style" : {
+                "navigationBarTitleText" : "测试接口",
+                "app-plus" : {
+                    "titleNView" : {
+						"buttons" : {
+							"type" : "back",
+							"color" : "#41BFFF"
+						}
+					}
+                }
+            }
+        },
+        {
+            "path" : "pages/mine/mine",
+            "style" : {
+				"navigationBarTextStyle" : "white", // 导航栏标题颜色
+                "app-plus" : {
+                    "titleNView" : false // 直接false就表示没有title
+                }
+            }
+        },
+        {
+            "path" : "pages/mine/items/items",
+            "style" : {
+                "navigationBarTitleText" : "我的订单",
+                "navigationBarBackgroundColor" : "#41BFFF", // 导航栏背景色
+                "navigationBarTextStyle" : "white" // 导航栏标题颜色
+            }
+        },
+        {
+            "path" : "pages/mine/tui_item/tui_item",
+            "style" : {
+                "navigationBarTitleText" : "我要退款",
+                "navigationBarBackgroundColor" : "#41BFFF", // 导航栏背景色
+                "navigationBarTextStyle" : "white" // 导航栏标题颜色
+            }
+        },
+        {
+            "path" : "pages/mine/item_detail/item_detail",
+            "style" : {
+                "navigationBarTitleText" : "订单详情",
+                "navigationBarBackgroundColor" : "#41BFFF", // 导航栏背景色
+                "navigationBarTextStyle" : "white" // 导航栏标题颜色
+            }
+        },
+        {
+            "path" : "pages/mine/pay/pay",
+            "style" : {
+                "navigationBarTitleText" : "支付选择",
+                "navigationBarBackgroundColor" : "#41BFFF", // 导航栏背景色
+                "navigationBarTextStyle" : "white" // 导航栏标题颜色
+            }
+        },
+        {
+            "path" : "pages/mine/pay_end/pay_end",
+            "style" : {
+                "navigationBarTitleText" : "订单支付",
+                "navigationBarBackgroundColor" : "#41BFFF", // 导航栏背景色
+                "navigationBarTextStyle" : "white" // 导航栏标题颜色
+            }
+        },
+        {
+            "path" : "pages/mine/wuliu/wuliu",
+            "style" : {
+                "navigationBarTitleText" : "物流查询",
+                "navigationBarBackgroundColor" : "#41BFFF", // 导航栏背景色
+                "navigationBarTextStyle" : "white" // 导航栏标题颜色
+            }
+        },
+        {
+            "path" : "pages/mine/addr_gl/addr_gl",
+            "style" : {
+                "navigationBarTitleText" : "地址管理",
+                "navigationBarBackgroundColor" : "#41BFFF", // 导航栏背景色
+                "navigationBarTextStyle" : "white" // 导航栏标题颜色
+            }
+        },
+        {
+            "path" : "pages/mine/addr/addr",
+            "style" : {
+                "navigationBarTitleText" : "地址新增",
+                "navigationBarBackgroundColor" : "#41BFFF", // 导航栏背景色
+                "navigationBarTextStyle" : "white" // 导航栏标题颜色
+            }
+        },
+        {
+            "path" : "pages/template/dataStorage/dataStorage",
+            "style" : {
+                "navigationBarTitleText" : "接口：数据存储",
+                "navigationBarBackgroundColor" : "#41BFFF", // 导航栏背景色
+                "navigationBarTextStyle" : "white" // 导航栏标题颜色
+            }
+        },
+        {
+            "path" : "pages/mine/send/send",
+            "style" : {
+                "navigationBarTitleText" : "配送轨迹",
+                "navigationBarBackgroundColor" : "#19BE6B", // 导航栏背景色
+                "navigationBarTextStyle" : "white" // 导航栏标题颜色
+            }
+        },{
+            "path" : "pages/template/calendar/calendar",
+            "style" : {
+                "navigationBarTitleText" : "日历",
+                "navigationBarBackgroundColor" : "#41BFFF", // 导航栏背景色
+                "navigationBarTextStyle" : "white" // 导航栏标题颜色
+            }
+        },
+        {
+            "path" : "pages/template/getPhonginfo/getPhonginfo",
+            "style" : {
+                "navigationBarTitleText" : "接口：手机信息",
+                "navigationBarBackgroundColor" : "#41BFFF", // 导航栏背景色
+                "navigationBarTextStyle" : "white" // 导航栏标题颜色
+            }
+        },
+        {
+            "path" : "pages/mine/updateInfo/updateInfo",
+            "style" : {
+                "navigationBarTitleText" : "信息修改",
+                "navigationBarBackgroundColor" : "#41BFFF", // 导航栏背景色
+                "navigationBarTextStyle" : "white" // 导航栏标题颜色
+            }
+        },
+        {
+            "path" : "platforms/app-plus/tabbar/tabbar",
+            "style" : {
+                "navigationBarTitleText" : "我的收藏",
+                "navigationBarBackgroundColor" : "#41BFFF", // 导航栏背景色
+                "navigationBarTextStyle" : "white" // 导航栏标题颜色
+            }
+        },
+        {
+            "path" : "pages/mine/collect/detail/detail",
+            "style" : {
+                "navigationBarTitleText" : "明细",
+                "navigationBarBackgroundColor" : "#41BFFF", // 导航栏背景色
+                "navigationBarTextStyle" : "white" // 导航栏标题颜色
+            }
+        },
+		{
+			"path" : "pages/template/echarts/echarts",
+			"style" : {
+				"navigationBarTitleText" : "echarts组件",
+				"navigationBarBackgroundColor" : "#41BFFF", // 导航栏背景色
+				"navigationBarTextStyle" : "white" // 导航栏标题颜色
+			}
+		},
+        {
+            "path" : "pages/login/login",
+            "style" : {
+                "navigationBarTitleText" : "登录",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "transparent" //开启下拉透明渐变导航
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/gesture-lock/gesture-lock",
+            "style" : {
+                "navigationBarTitleText" : "手势登录",
+                "app-plus" : {
+                    "titleNView" : false,
+                    "bounce" : "none",
+                    "scrollIndicator" : "none",
+                    "pullToRefresh" : {
+                        "style" : "circle",
+                        "offset" : "70px",
+                        "color" : "#007AFF"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/reg/reg",
+            "style" : {
+                "navigationBarTitleText" : "注册",
+                "navigationBarBackgroundColor" : "#41BFFF", // 导航栏背景色
+                "navigationBarTextStyle" : "white" // 导航栏标题颜色
+            }
+        },
+        {
+            "path" : "pages/mine/sette/sette",
+            "style" : {
+                "navigationBarTitleText" : "设置",
+                "navigationBarBackgroundColor" : "#41BFFF", // 导航栏背景色
+                "navigationBarTextStyle" : "white" // 导航栏标题颜色
+            }
+        },
+        {
+            "path" : "pages/slide-view/slide-view",
+            "style" : {
+                "navigationBarTitleText" : "slide-view",
+                "navigationBarBackgroundColor" : "#41BFFF", // 导航栏背景色
+                "navigationBarTextStyle" : "white", // 导航栏标题颜色
+                "usingComponents" : {
+                    // 这是小程序的滑动菜单组件
+                    "slide-view" : "/wxcomponents/miniprogram-slide-view/index"
+                }
+            }
+        },
+        {
+            "path" : "components/uni-input",
+            "style" : {}
+        }
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "backgroundColor" : "#F8F8F8"
+    },
+    "tabBar" : {
+        "color" : "#7A7E83",
+        "selectedColor" : "#007AFF",
+        "borderStyle" : "black",
+        "backgroundColor" : "#ffffff",
+        "list" : [
+            {
+                "pagePath" : "pages/component/component",
+                "iconPath" : "static/home.png",
+                "selectedIconPath" : "static/home_active.png",
+                "text" : "首页"
+            },
+            {
+                "pagePath" : "platforms/app-plus/tabbar/tabbar",
+                "iconPath" : "static/fication.png",
+                "selectedIconPath" : "static/fication_active.png",
+                "text" : "分类"
+            },
+            {
+                "pagePath" : "pages/template/template",
+                "iconPath" : "static/extense.png",
+                "selectedIconPath" : "static/extense_active.png",
+                "text" : "推广"
+            },
+            {
+                "pagePath" : "pages/mine/mine",
+                "iconPath" : "static/mine.png",
+                "selectedIconPath" : "static/mine_active.png",
+                "text" : "我的"
+            }
+        ]
+    },
+    "condition" : {
+        //模式配置，仅开发期间生效
+        "current" : 0, //当前激活的模式(list 的索引项)
+        "list" : [
+            {
+                "name" : "", //模式名称
+                "path" : "", //启动页面，必选
+                "query" : "" //启动参数，在页面的onLoad函数里面得到
+            }
+        ]
+    }
+}
